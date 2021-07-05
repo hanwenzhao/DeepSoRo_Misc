@@ -1,4 +1,5 @@
 import os, sys
+import math
 import bpy
 
 # IMPORT MESH
@@ -14,7 +15,8 @@ bpy.context.collection.objects.link(light)
 # ADD CAMERA
 cam_data = bpy.data.cameras.new('camera')
 cam = bpy.data.objects.new('camera', cam_data)
-cam.location = (0, -2, 0)
+cam.location = (0, 0.5, 0)
+cam.rotation_euler = (90*math.pi/180.0, 0*math.pi/180.0, 0*math.pi/180.0) 
 bpy.context.collection.objects.link(cam)
 
 # ADD MATERIAL
@@ -39,5 +41,5 @@ scene.render.image_settings.file_format = 'PNG'
 scene.render.filepath = "/home/hanwen/Documents/Github/DeepSoRo_Misc/Colorize_Sphere/105_color.png"
 
 # RENDER
-#bpy.ops.render.render(write_still=1)
+bpy.ops.render.render(write_still=1)
 
