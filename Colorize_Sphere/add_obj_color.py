@@ -19,3 +19,5 @@ if __name__ == "__main__":
             for item in data:
                 out_file.write("%s " % item)
             out_file.write("\n")
+    in_file.close()   
+    out_file.close()
