@@ -1,0 +1,76 @@
+1760 6851
+8 16 2
+current 105188 KB, peak 105308 KB
+1 activities:
+  0.962596 s: descent
+  0.962596 s: Total
+15 activities:
+   0.04312 s: matrixComputation
+  0.016268 s: matrixAssembly
+  0.010291 s: symbolicFactorization
+   0.44071 s: numericalFactorization
+  0.023406 s: backSolve
+  0.132734 s: lineSearch_other
+         0 s: modifyGrad
+         0 s: modifySearchDir
+         0 s: updateHistory
+  0.013697 s: lineSearch_eVal
+  0.003174 s: fullyImplicit_eComp
+  0.009977 s: solve_extraComp
+  0.009088 s: compGrad
+  0.084831 s: CCD
+  0.205745 s: computeConstraintSets
+  0.993041 s: Total
+14 activities:
+         0 s: init
+         0 s: initPrimal
+         0 s: initDual
+         0 s: initWeights
+         0 s: initCons
+         0 s: subdSolve
+         0 s: consSolve
+  0.069727 s: build hash CCS
+  0.004994 s: PT CCS
+  0.123656 s: EE CCS
+  0.000683 s: merge CCS
+   0.06743 s: build hash CCD
+         0 s: PPET CCD
+         0 s: EE CCD
+   0.26649 s: Total
+24 activities:
+         0 s: query EE CCS
+  0.002911 s: type EE CCS
+  0.001275 s: dist EE CCS
+         0 s: query EE CCD
+         0 s: dist EE CCD
+         0 s: EV EE CCD
+  0.162584 s: getE EE CCS
+         0 s: getE EE CCD
+  0.000922 s: matSp graph
+  0.003841 s: matSp allocate
+   0.04117 s: H_elasticity
+  0.001914 s: massM
+     1e-05 s: H_IPC_ACO
+     1e-06 s: H_IPC_MCO
+   1.5e-05 s: H_IPC_Self
+  0.052785 s: hashP
+  0.017996 s: hashE
+   0.00787 s: hashT
+  0.087791 s: constructHash
+         0 s: QE_locate
+         0 s: QE_loop
+         0 s: QE_collect
+   0.00142 s: paraEE CCS
+  0.341392 s: looping EE CCS
+  0.723897 s: Total
+avg # collision pairs / iter = 0
+max # collision pairs / iter = 0
+avg # collision pairs / end of ts = 0
+max # collision pairs / end of ts = 0
+
+Total:
+avg # collision pairs / iter = 0
+max # collision pairs / iter = 0
+avg # collision pairs / end of ts = 0
+max # collision pairs / end of ts = 0
+

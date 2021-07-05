@@ -1,0 +1,10 @@
+shapes input 1
+input/tetMeshes/sphere1K.msh 0 3 0  0 0 0  1 1 1
+
+stiffness 7e4 0.4
+
+selfFric 0.1
+
+ground 0.1 0
+
+zoom 0.3
